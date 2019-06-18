@@ -30,6 +30,10 @@
                 "glob": "hello_tutorial.pexe",
                 "input": "src/pnacl/Release/",
                 "output": "./pnacl/Release/"
+              },{
+                "glob": "hello.wasm",
+                "input": "node_modules/",
+                "output": "./node_modules/"
               },
               "src/manifest.webmanifest"
             ],
@@ -37,8 +41,7 @@
               "src/styles.css"
             ],
             "scripts": [
-              "./node_modules/common.js",
-              "./node_modules/example.js"
+              "./node_modules/hello.js"
             ]
           },
           "configurations": {
